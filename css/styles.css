@@ -1,0 +1,176 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Main title section of page */
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 2.5rem;
+}
+
+h2{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-family: 'Montserrat-Black', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* padding distance on the navigation bar  */
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/* the links on the nav bar */
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+/* changes the coloumns and rows */
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* dog phone image */
+.title-image{
+  width: 60%;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* The text alignment inside the second layout-part of the site */
+.feature-box{
+  text-align: center;
+  background-color: #fff;
+  padding: 5%;
+}
+
+/* changes to the icon from original */
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+/* how the ico changes when the icon is hovered over */
+.icon:hover {
+  color: #ff4c68
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press logo icons */
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.card-title {
+  padding: 2%;
+  padding-top: 3%;
+  background-color: #e6e6e6;
+}
+
+/* how much space between the each of pricing cards */
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.footer-copyright {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1028px){
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* testimonials section of the site */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+/* Features of second layout of page */
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#cta {
+  padding: 10px;
+  text-align:center;
+  background-color: #ff4c68;
+  padding-top: 5%;
+  color: #fff;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 5%;
+}
